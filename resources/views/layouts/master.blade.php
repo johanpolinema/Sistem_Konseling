@@ -10,16 +10,16 @@
     <title>Medino</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/images/logo/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href=" asset{{'assets/images/logo/favicon.png'}}" type="image/x-icon">
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="assets/css/animate-3.7.0.css">
-    <link rel="stylesheet" href="assets/css/font-awesome-4.7.0.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-4.1.3.min.css">
-    <link rel="stylesheet" href="assets/css/owl-carousel.min.css">
-    <link rel="stylesheet" href="assets/css/jquery.datetimepicker.min.css">
-    <link rel="stylesheet" href="assets/css/linearicons.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href=" asset{{'assets/css/animate-3.7.0.css'}}">
+    <link rel="stylesheet" href=" asset{{'assets/css/font-awesome-4.7.0.min.css'}}">
+    <link rel="stylesheet" href=" asset{{'assets/css/bootstrap-4.1.3.min.css'}}">
+    <link rel="stylesheet" href=" asset{{'assets/css/owl-carousel.min.css'}}">
+    <link rel="stylesheet" href=" asset{{'assets/css/jquery.datetimepicker.min.css'}}">
+    <link rel="stylesheet" href=" asset{{'assets/css/linearicons.css'}}">
+    <link rel="stylesheet" href=" asset{{'assets/css/style.css'}}">
 </head>
 
 <body>
@@ -57,7 +57,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between d-flex">
                 <div id="logo">
-                    <a href="index.html"><img src="assets/images/logo/logo.png" alt="" title="" /></a>
+                    <a href="index.html"><img src=" asset{{'assets/images/logo/logo.png'}}" alt="" title="" /></a>
                 </div>
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
@@ -116,14 +116,14 @@
                         <div class="single-widge-home">
                             <h3 class="mb-4">instagram feed</h3>
                             <div class="feed">
-                                <img src="assets/images/feed1.jpg" alt="feed">
-                                <img src="assets/images/feed2.jpg" alt="feed">
-                                <img src="assets/images/feed3.jpg" alt="feed">
-                                <img src="assets/images/feed4.jpg" alt="feed">
-                                <img src="assets/images/feed5.jpg" alt="feed">
-                                <img src="assets/images/feed6.jpg" alt="feed">
-                                <img src="assets/images/feed7.jpg" alt="feed">
-                                <img src="assets/images/feed8.jpg" alt="feed">
+                                <img src="asset{{'assets/images/feed1.jpg'}}" alt="feed">
+                                <img src="asset{{'assets/images/feed2.jpg'}}" alt="feed">
+                                <img src="asset{{'assets/images/feed3.jpg'}}" alt="feed">
+                                <img src="asset{{'assets/images/feed4.jpg'}}" alt="feed">
+                                <img src="asset{{'assets/images/feed5.jpg'}}" alt="feed">
+                                <img src="asset{{'assets/images/feed6.jpg'}}" alt="feed">
+                                <img src="asset{{'assets/images/feed7.jpg'}}" alt="feed">
+                                <img src="asset{{'assets/images/feed8.jpg'}}" alt="feed">
                             </div>
                         </div>
                     </div>
@@ -158,14 +158,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 
     <!-- Javascript -->
-    <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
-	<script src="assets/js/vendor/bootstrap-4.1.3.min.js"></script>
-    <script src="assets/js/vendor/wow.min.js"></script>
-    <script src="assets/js/vendor/owl-carousel.min.js"></script>
-    <script src="assets/js/vendor/jquery.datetimepicker.full.min.js"></script>
-    <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
-    <script src="assets/js/vendor/superfish.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src=" asset{{'assets/js/vendor/jquery-2.2.4.min.js'}}"></script>
+	<script src=" asset{{'assets/js/vendor/bootstrap-4.1.3.min.js'}}"></script>
+    <script src=" asset{{'assets/js/vendor/wow.min.js'}}"></script>
+    <script src=" asset{{'assets/js/vendor/owl-carousel.min.js'}}"></script>
+    <script src=" asset{{'assets/js/vendor/jquery.datetimepicker.full.min.js'}}"></script>
+    <script src=" asset{{'assets/js/vendor/jquery.nice-select.min.js'}}"></script>
+    <script src=" asset{{'assets/js/vendor/superfish.min.js'}}"></script>
+    <script src=" asset{{'assets/js/main.js'}}"></script>
 
 </body>
 </html>
