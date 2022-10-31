@@ -35,20 +35,22 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between d-flex">
                 <div id="logo">
-                    <a href="index.html"><img src="{{ asset('assets/images/logo/logo.png') }}" alt="" title="" /></a>
+                    <a href="{{ route('home') }}"><img src="{{ asset('assets/images/logo/logo.png') }}" alt="" title="" /></a>
                 </div>
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
-                        <li class="menu-active"><a href="index.html">Beranda</a></li>
-                        <li><a href="departments.html">Manajemen</a></li>
-                        <li><a href="doctors.html">Dokter</a></li>
+                        <li class="menu-active"><a href="{{ route('home') }}">Beranda</a></li>
+                        <li><a href="{{ route('management')}}">Manajemen</a></li>
+                        <li><a href="{{ route('doctor')}}">Dokter</a></li>
                         <li class="menu-has-children"><a href="">Layanan</a>
                             <ul>
-                                <li><a href="about.html">Artikel</a></li>
+                                <li><a href="{{ route('blog') }}">Artikel</a></li>
                                 <li><a href="elements.html">Konseling</a></li>
                             </ul>
                         </li>
-                        <li><a href="contact.html">Contact</a></li>			          				          
+                        <li><a href="{{ route('about')}}">Tentang Kami</a></li>		
+                        <li><a href="#">Daftar</a></li>	          				          
+                        <li><a href="#">Login</a></li>	          				          
                     </ul>
                 </nav><!-- #nav-menu-container -->		    		
                 </div>
