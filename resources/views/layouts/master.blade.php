@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Page Title -->
-    <title>Medino</title>
+    <title>Konselingin.id</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href=" {{asset('assets/images/logo/favicon.png')}}" type="image/x-icon">
