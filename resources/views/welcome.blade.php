@@ -7,8 +7,8 @@
             <div class="row">
                 <div class="col-lg-5">
                     <h4>Caring for better life</h4>
-                    <h1>Leading the way in mental health excellence</h1>
-                    <p>Earth greater grass for good. Place for divide evening yielding them that. Creeping beginning over gathered brought.</p>
+                    <h1>Memimpin dalam keunggulan kesehatan mental</h1>
+                    <p>Bumi rumput yang lebih besar untuk selamanya. Tempat untuk membagi malam menghasilkan mereka itu. Merayap mulai berkumpul dibawa.</p>
                     <a href="" class="template-btn mt-3">take appointment</a>
                 </div>
             </div>
@@ -22,30 +22,30 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="single-feature text-center item-padding">
-                        <img src="assets/images/feature1.png" alt="">
-                        <h3>advance technology</h3>
-                        <p class="pt-3">Creeping for female light years that lesser can't evening heaven isn't bearing tree appear</p>
+                        <img src="{{ asset('assets/images/feature1.png') }}" alt="">
+                        <h3>Teknologi Baru</h3>
+                        <p class="pt-3">Kami berkomitmen untuk menggunakan teknologi terbaru demi keamanan dan kenyamanan pengguna</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-feature text-center item-padding mt-4 mt-md-0">
-                        <img src="assets/images/feature2.png" alt="">
-                        <h3>comfortable place</h3>
-                        <p class="pt-3">Creeping for female light years that lesser can't evening heaven isn't bearing tree appear</p>
+                        <img src="{{ asset('assets/images/feature2.png') }}" alt="">
+                        <h3>Tempat Yang Nyaman</h3>
+                        <p class="pt-3">Kami berkomitmen untuk menyediakan tempat yang aman dan nyaman bagi pengguna untuk bercerita mengenai permasalahannya</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-feature text-center item-padding mt-4 mt-lg-0">
-                        <img src="assets/images/feature3.png" alt="">
-                        <h3>quality equipment</h3>
-                        <p class="pt-3">Creeping for female light years that lesser can't evening heaven isn't bearing tree appear</p>
+                        <img src="{{ asset('assets/images/feature3.png') }}" alt="">
+                        <h3>Kualitas Terjamin</h3>
+                        <p class="pt-3">Kualitas tentang platform dan tenaga ahli yang kami berikan sangat kami utamakan</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-feature text-center item-padding mt-4 mt-lg-0">
-                        <img src="assets/images/feature4.png" alt="">
-                        <h3>friendly staff</h3>
-                        <p class="pt-3">Creeping for female light years that lesser can't evening heaven isn't bearing tree appear</p>
+                        <img src="{{ asset('assets/images/feature4.png') }}" alt="">
+                        <h3>Staff Ramah</h3>
+                        <p class="pt-3">Kami menjamin mengenai keramahan staff kepada pengguna demi kenyamanan pengguna saat menggunakan platform kami</p>
                     </div>
                 </div>
             </div>
@@ -59,12 +59,12 @@
             <div class="row">
                 <div class="col-lg-5 align-self-center">
                     <div class="welcome-img">
-                        <img src="assets/images/welcome.png" alt="">
+                        <img src="{{ asset('assets/images/welcome.png') }}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="welcome-text mt-5 mt-lg-0">
-                        <h2>Welcome to our clinic</h2>
+                        <h2>Selamat Datang di Konseling.id</h2>
                         <p class="pt-3">Subdue whales void god which living don't midst lesser yielding over lights whose. Cattle greater brought sixth fly den dry good tree isn't seed stars were.</p>
                         <p>Subdue whales void god which living don't midst lesser yielding over lights whose. Cattle greater brought sixth fly den dry good tree isn't seed stars were the boring.</p>
                         <a href="#" class="template-btn mt-3">learn more</a>
@@ -81,7 +81,7 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-top text-center">
-                        <h2>Popular department</h2>
+                        <h2>Departemen Terpopuler</h2>
                         <p>Green above he cattle god saw day multiply under fill in the cattle fowl a all, living, tree word link available in the service for subdue fruit.</p>
                     </div>
                 </div>
@@ -91,49 +91,37 @@
                     <div class="department-slider owl-carousel">
                         <div class="single-slide">
                             <div class="slide-img">
-                                <img src="assets/images/department1.jpg" alt="" class="img-fluid">
+                                <img src="{{ asset('assets/images/department1.jpg') }}" alt="" class="img-fluid">
                                 <div class="hover-state">
                                     <a href="#"><i class="fa fa-stethoscope"></i></a>
                                 </div>
                             </div>
                             <div class="single-department item-padding text-center">
-                                <h3>cardiac clinic</h3>
+                                <h3>Konseling</h3>
                                 <p>Hath creeping subdue he fish gred face whose spirit that seasons today multiply female midst upon</p>
                             </div>
                         </div>
                         <div class="single-slide">
                             <div class="slide-img">
-                                <img src="assets/images/department2.jpg" alt="" class="img-fluid">
+                                <img src="{{ asset('assets/images/department2.jpg') }}" alt="" class="img-fluid">
                                 <div class="hover-state">
                                     <a href="departments.html"><i class="fa fa-stethoscope"></i></a>
                                 </div>
                             </div>
                             <div class="single-department item-padding text-center">
-                                <h3>plastic surgery</h3>
+                                <h3>Pusat Informasi</h3>
                                 <p>Hath creeping subdue he fish gred face whose spirit that seasons today multiply female midst upon</p>
                             </div>
                         </div>
                         <div class="single-slide">
                             <div class="slide-img">
-                                <img src="assets/images/department3.jpg" alt="" class="img-fluid">
+                                <img src="{{ asset('assets/images/department3.jpg') }}" alt="" class="img-fluid">
                                 <div class="hover-state">
                                     <a href="departments.html"><i class="fa fa-stethoscope"></i></a>
                                 </div>
                             </div>
                             <div class="single-department item-padding text-center">
-                                <h3>dental clinic</h3>
-                                <p>Hath creeping subdue he fish gred face whose spirit that seasons today multiply female midst upon</p>
-                            </div>
-                        </div>
-                        <div class="single-slide">
-                            <div class="slide-img">
-                                <img src="assets/images/department1.jpg" alt="" class="img-fluid">
-                                <div class="hover-state">
-                                    <a href="departments.html"><i class="fa fa-stethoscope"></i></a>
-                                </div>
-                            </div>
-                            <div class="single-department item-padding text-center">
-                                <h3>cardiac clinic</h3>
+                                <h3>Manajemen</h3>
                                 <p>Hath creeping subdue he fish gred face whose spirit that seasons today multiply female midst upon</p>
                             </div>
                         </div>
@@ -150,7 +138,7 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-top text-center">
-                        <h2>Patient are saying</h2>
+                        <h2>Testimoni Pengguna</h2>
                         <p>Green above he cattle god saw day multiply under fill in the cattle fowl a all, living, tree word link available in the service for subdue fruit.</p>
                     </div>
                 </div>
@@ -158,15 +146,15 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="single-patient mb-4">
-                        <img src="assets/images/patient1.png" alt="">
+                        <img src="{{ asset('assets/images/patient1.png') }}" alt="">
                         <h3>daren jhonson</h3>
-                        <h5>hp specialist</h5>
+                        <h5>Konseling</h5>
                         <p class="pt-3">Elementum libero hac leo integer. Risus hac road parturient feugiat. Litora cursus hendrerit bib elit Tempus inceptos posuere metus.</p>
                     </div>
                     <div class="single-patient">
-                        <img src="assets/images/patient2.png" alt="">
+                        <img src="{{ asset('assets/images/patient2.png') }}" alt="">
                         <h3>black heiden</h3>
-                        <h5>hp specialist</h5>
+                        <h5>Pusat Informasi</h5>
                         <p class="pt-3">Elementum libero hac leo integer. Risus hac road parturient feugiat. Litora cursus hendrerit bib elit Tempus inceptos posuere metus.</p>
                     </div>
                 </div>
@@ -201,7 +189,7 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-top text-center">
-                        <h2>Our specialish</h2>
+                        <h2>Tenaga Ahli</h2>
                         <p>Green above he cattle god saw day multiply under fill in the cattle fowl a all, living, tree word link available in the service for subdue fruit.</p>
                     </div>
                 </div>
@@ -305,7 +293,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Emergency hotline</h2>
+                    <h2>Layanan Darurat</h2>
                     <span>(+01) – 256 567 550</span>
                     <p class="pt-3">We provide 24/7 customer support. Please feel free to contact us <br>for emergency case.</p>
                 </div>
@@ -320,7 +308,7 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-top text-center">
-                        <h2>Recent medical news</h2>
+                        <h2>Artikel Terbaru</h2>
                         <p>Green above he cattle god saw day multiply under fill in the cattle fowl a all, living, tree word link available in the service for subdue fruit.</p>
                     </div>
                 </div>
