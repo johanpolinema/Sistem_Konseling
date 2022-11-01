@@ -119,25 +119,25 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="../../index.html" class="nav-link">
+                <a href="{{ route('adminalltransactionlist')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Semua</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../../index2.html" class="nav-link">
+                <a href="{{route('adminincomelist')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Pendapatan Konseling</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../../index3.html" class="nav-link">
+                <a href="{{ route('billpsikologlist')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Tagihan Psikolog</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../../index3.html" class="nav-link">
+                <a href="{{ route('billredakturlist')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Tagihan Redaktur</p>
                 </a>
