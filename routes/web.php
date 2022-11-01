@@ -43,6 +43,10 @@ Route::prefix('admin')->group(function () {
         return view('admin.dashboard');
     })->name('admin');
 
+    Route::get('set-konseling', function () {
+        return view('admin.setkonseling');
+    })->name('setkonseling');
+
     Route::prefix('all')->group(function () {    
         Route::get('psikologs', function () {
             return view('admin.psikologlist');
@@ -81,5 +85,19 @@ Route::prefix('admin')->group(function () {
         Route::get('redaktur', function() {
             return view('admin.billredakturlist');
         })->name('billredakturlist');
+    });
+
+    Route::prefix('artikel')->group(function () {
+        Route::get('publish', function () {
+            return view('admin.publishlist');
+        })->name('artikelpublish');
+
+        Route::get('review', function () {
+            return view('admin.reviewlist');
+        })->name('artikelreview');
+
+        Route::get('staging', function () {
+            return view('admin.newartikellist');
+        })->name('artikelstaging');
     });
 });

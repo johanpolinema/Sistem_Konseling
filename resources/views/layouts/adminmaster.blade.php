@@ -143,8 +143,43 @@
                 </a>
               </li>
             </ul>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-tachometer-alt"></i>
+                <p>
+                  Artikel
+                  <i class="right fas fa-angle-left"></i>
+                </p>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="{{ route('artikelpublish')}}" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Terpublish</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="{{route('artikelreview')}}" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Tahap Review</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="{{ route('artikelstaging')}}" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Proses Penulisan</p>
+                  </a>
+                </li>
           </li>
         </ul>
+        <li class="nav-item">
+          <a href="{{ route('setkonseling')}}" class="nav-link">
+            <i class="nav-icon fas fa-tachometer-alt"></i>
+            <p>
+              Jadwal Konseling
+            </p>
+          </a>
+        </li>
       </nav>
       <!-- /.sidebar-menu -->
     </div>
