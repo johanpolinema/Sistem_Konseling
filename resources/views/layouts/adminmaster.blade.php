@@ -61,7 +61,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{ route('admin')}}" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -78,31 +78,31 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="../../index.html" class="nav-link">
+                <a href="{{ route('adminalllist')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Semua</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../../index2.html" class="nav-link">
+                <a href="{{route('adminlist')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Admin</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../../index3.html" class="nav-link">
+                <a href="{{ route('adminpsikologlist')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Psikolog</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../../index3.html" class="nav-link">
+                <a href="{{ route('adminredakturlist')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Redaktur</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../../index3.html" class="nav-link">
+                <a href="{{ route('adminuserlist')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Pengguna</p>
                 </a>
