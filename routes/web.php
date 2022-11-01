@@ -83,3 +83,11 @@ Route::prefix('admin')->group(function () {
         })->name('billredakturlist');
     });
 });
+
+Route::get('/login', function () {
+    return view('auth/login');
+ });
+
+ Route::get('/registrasi', function () {
+    return view('auth/registrasi');
+ });
