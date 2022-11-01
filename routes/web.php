@@ -38,9 +38,11 @@ Route::get('/view-artikel', function(){
 })-> name('blog-detail');
 
 Route::prefix('admin')->group(function () {
+
     Route::get('/', function () {
         return view('admin.dashboard');
     })->name('admin');
+
     Route::prefix('all')->group(function () {    
         Route::get('psikologs', function () {
             return view('admin.psikologlist');
@@ -61,5 +63,23 @@ Route::prefix('admin')->group(function () {
         Route::get('/list', function () {
             return view('admin.alllist');
         })->name('adminalllist');
+    });
+
+    Route::prefix('transaction')->group(function () {
+        Route::get('list', function() {
+            return view('admin.alltransactionlist');
+        })->name('adminalltransactionlist');
+
+        Route::get('income', function() {
+            return view('admin.incomelist');
+        })->name('adminincomelist');
+
+        Route::get('psikolog', function() {
+            return view('admin.billpsikologlist');
+        })->name('billpsikologlist');
+
+        Route::get('redaktur', function() {
+            return view('admin.billredakturlist');
+        })->name('billredakturlist');
     });
 });
