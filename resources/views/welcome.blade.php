@@ -8,7 +8,7 @@
                 <div class="col-lg-5">
                     <h4>Caring for better life</h4>
                     <h1>Memimpin dalam keunggulan kesehatan mental</h1>
-                    <p>Bumi rumput yang lebih besar untuk selamanya. Tempat untuk membagi malam menghasilkan mereka itu. Merayap mulai berkumpul dibawa.</p>
+                    <p>Pemulihan bukanlah satu dan selesai. Ini adalah perjalanan seumur hidup yang terjadi satu hari, selangkah demi selangkah.</p>
                     <a href="" class="template-btn mt-3">take appointment</a>
                 </div>
             </div>
@@ -30,8 +30,8 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single-feature text-center item-padding mt-4 mt-md-0">
                         <img src="{{ asset('assets/images/feature2.png') }}" alt="">
-                        <h3>Tempat Yang Nyaman</h3>
-                        <p class="pt-3">Kami berkomitmen untuk menyediakan tempat yang aman dan nyaman bagi pengguna untuk bercerita mengenai permasalahannya</p>
+                        <h3>Layanan Yang Nyaman</h3>
+                        <p class="pt-3">Kami berkomitmen untuk menyediakan layanan yang aman dan nyaman bagi pengguna untuk bercerita mengenai permasalahannya</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -65,8 +65,8 @@
                 <div class="col-lg-7">
                     <div class="welcome-text mt-5 mt-lg-0">
                         <h2>Selamat Datang di Konseling.id</h2>
-                        <p class="pt-3">Subdue whales void god which living don't midst lesser yielding over lights whose. Cattle greater brought sixth fly den dry good tree isn't seed stars were.</p>
-                        <p>Subdue whales void god which living don't midst lesser yielding over lights whose. Cattle greater brought sixth fly den dry good tree isn't seed stars were the boring.</p>
+                        <p class="pt-3">Kami siap membantu anda dalam menangani kesehatan mental anda.</p>
+                        <p>Dengan Konseling.id masalah tentang mental anda yang tidak ingin anda kemukakan ke orang lain bisa di selesaikan dengan ini.Bicarakan isi hatimu,temukan masalahmu,hiduplah dengan damai.</p>
                         <a href="#" class="template-btn mt-3">learn more</a>
                     </div>
                 </div>
@@ -81,8 +81,8 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-top text-center">
-                        <h2>Departemen Terpopuler</h2>
-                        <p>Green above he cattle god saw day multiply under fill in the cattle fowl a all, living, tree word link available in the service for subdue fruit.</p>
+                        <h2>Layanan Terpopuler</h2>
+                      
                     </div>
                 </div>
             </div>
@@ -182,7 +182,7 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-top text-center">
                         <h2>Tenaga Ahli</h2>
-                        <p>Green above he cattle god saw day multiply under fill in the cattle fowl a all, living, tree word link available in the service for subdue fruit.</p>
+                        <p>Daftar Tenaga ahli yang akan membantu anda</p>
                     </div>
                 </div>
             </div>
@@ -286,7 +286,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2>Layanan Darurat</h2>
-                    <span>(+01) – 256 567 550</span>
+                    <span>(+62) 857-6085-232</span>
                     <p class="pt-3">We provide 24/7 customer support. Please feel free to contact us <br>for emergency case.</p>
                 </div>
             </div>
@@ -301,7 +301,6 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-top text-center">
                         <h2>Artikel Terbaru</h2>
-                        <p>Green above he cattle god saw day multiply under fill in the cattle fowl a all, living, tree word link available in the service for subdue fruit.</p>
                     </div>
                 </div>
             </div>

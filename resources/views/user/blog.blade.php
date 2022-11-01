@@ -15,56 +15,13 @@
     </section>
     <!-- Banner Area End -->
 
-    <!--================Blog Categorie Area =================-->
-    <section class="blog_categorie_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                    <div class="categories_post">
-                        <img src="assets/images/blog/cat-post/cat-post-3.jpg" alt="post">
-                        <div class="categories_details">
-                            <div class="categories_text">
-                                <a href="blog-details.html"><h5>Social Life</h5></a>
-                                <div class="border_line"></div>
-                                <p>Enjoy your social life together</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                    <div class="categories_post">
-                        <img src="assets/images/blog/cat-post/cat-post-2.jpg" alt="post">
-                        <div class="categories_details">
-                            <div class="categories_text">
-                                <a href="blog-details.html"><h5>Politics</h5></a>
-                                <div class="border_line"></div>
-                                <p>Be a part of politics</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="categories_post">
-                        <img src="assets/images/blog/cat-post/cat-post-1.jpg" alt="post">
-                        <div class="categories_details">
-                            <div class="categories_text">
-                                <a href="blog-details.html"><h5>Food</h5></a>
-                                <div class="border_line"></div>
-                                <p>Let the food be finished</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--================Blog Categorie Area =================-->
+   
     
     <!--================Blog Area =================-->
-    <section class="blog_area">
-        <div class="container">
+    <section class="blog_area ">
+        <div class="container ">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="d-flex justify-content-center">
                     <div class="blog_left_sidebar">
                         <article class="row blog_item">
                            <div class="col-md-3">
@@ -85,6 +42,9 @@
                            </div>
                             <div class="col-md-9">
                                 <div class="blog_post">
+                                <div class="break">
+                                        <br>
+                                    </div>
                                     <img src="assets/images/blog/main-blog/m-blog-1.jpg" alt="">
                                     <div class="blog_details">
                                         <a href="{{ route('blog-detail')}}"><h4>Astronomy Binoculars A Great Alternative</h4></a>
@@ -231,7 +191,7 @@
                         </nav>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <!-- <div class="col-lg-4">
                     <div class="blog_right_sidebar">
                         <aside class="single_sidebar_widget search_widget">
                             <div class="input-group">
@@ -239,7 +199,7 @@
                                 <span class="input-group-btn">
                                     <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
                                 </span>
-                            </div><!-- /input-group -->
+                            </div>
                             <div class="br"></div>
                         </aside>
                         <aside class="single_sidebar_widget author_widget">
@@ -375,7 +335,7 @@
                             </ul>
                         </aside>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
