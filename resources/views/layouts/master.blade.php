@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Page Title -->
-    <title>Konselingin.id</title>
+    <title>Konseling.id</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href=" {{asset('assets/images/logo/favicon.png')}}" type="image/x-icon">
@@ -35,7 +35,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between d-flex">
                 <div id="logo">
-                    <a href="{{ route('home') }}"><img src="{{ asset('assets/images/logo/logo.png') }}" alt="" title="" /></a>
+                    <a href="{{ route('home') }}"><img src="{{ asset('assets/images/logo/logo3.png') }}" alt="" title="" /></a>
                 </div>
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
