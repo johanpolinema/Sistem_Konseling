@@ -36,3 +36,9 @@ Route::get('/artikel', function(){
 Route::get('/view-artikel', function(){
     return view('user.blog-details');
 })-> name('blog-detail');
+
+Route::prefix('admin')->group(function () {
+    Route::get('/users', function () {
+        return view('admin.userlist');
+    })->name('adminuserlist');
+});
